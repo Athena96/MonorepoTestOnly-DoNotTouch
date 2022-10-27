@@ -5,6 +5,7 @@ applications:
       phases:
         preBuild:
           commands:
+            - echo 'top prebuild'
             - npm ci
         build:
           commands:
