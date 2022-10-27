@@ -5,6 +5,7 @@ applications:
       phases:
         preBuild:
           commands:
+            - echo 'inner prebuild'
             - npm ci
         build:
           commands:
