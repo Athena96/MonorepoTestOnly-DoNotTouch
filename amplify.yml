@@ -6,7 +6,7 @@ applications:
         preBuild:
           commands:
             - echo 'top prebuild'
-            - npm ci
+            - npm install
         build:
           commands:
             - npm run build
@@ -23,7 +23,7 @@ applications:
         preBuild:
           commands:
             - echo 'top prebuild'
-            - npm ci
+            - npm install
         build:
           commands:
             - npm run build
